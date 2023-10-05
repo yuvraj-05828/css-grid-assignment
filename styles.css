@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    background-color: black;
+}
+img{
+    max-width: 100% ;
+    height: auto;
+    vertical-align:middle;
+    display:inline-block;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-row-gap: 90px;
+    grid-column-gap: 10px;
+}
+   
